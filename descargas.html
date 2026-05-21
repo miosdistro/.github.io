@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>miOS — Descargas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-label">miOS</span>
+        <span class="brand-sub">Debian · XFCE</span>
+      </div>
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="caracteristicas.html">Características</a>
+        <a href="comparativa.html">Comparativa</a>
+        <a href="comunidad.html">Comunidad</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section-download">
+      <div class="section-head">
+        <span>Descarga</span>
+        <h2 class="animate-letters">Lleva miOS a tu equipo hoy</h2>
+        <p>Descarga la ISO oficial y prueba un sistema limpio, rápido y libre de telemetría.</p>
+      </div>
+      <div class="download-card">
+        <div>
+          <p>Requisitos mínimos: 2GB de RAM. En reposo el sistema usa aproximadamente 650–690 MB; en equipos con 16GB puede usar entre 1.2 y 2.2 GB de RAM.</p>
+        </div>
+        <div class="download-actions">
+          <a class="btn primary large" href="https://drive.google.com/file/d/1i7BaRfP0LBuPOBGjecT9Qu22OeQHzzyM/view?usp=sharing" target="_blank" rel="noreferrer">Descargar ISO</a>
+        </div>
+      </div>
+      <p class="small-copy">Basado en Debian, pensado para personalizar y rescatar equipos.</p>
+    </section>
+    <section class="section">
+      <div class="section-head">
+        <span>Repositorios</span>
+        <h2 class="animate-letters">Sin repos APT oficiales</h2>
+        <p><strong>miOS no mantiene repositorios APT oficiales.</strong> Distribuimos imágenes ISO; los paquetes incluidos proceden de Debian y de fuentes comunitarias. Para instalar software recomendamos usar los repositorios oficiales de Debian, Flatpak o compilar desde la fuente cuando sea necesario.</p>
+        <p>Verifica la integridad de la ISO con SHA256:</p>
+        <pre><code>sha256sum miOS.iso</code></pre>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>miOS — una distro personalizable basada en Debian. Sin Snaps. Sin telemetría. Para la comunidad.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
